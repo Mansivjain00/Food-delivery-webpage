@@ -1,0 +1,13 @@
+#clients-section{
+    height: 450px;
+}
+
+#clients{
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: 20rem;
+}
+
+#clients-section::before{
+   height: 22rem;
+}

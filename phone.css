@@ -1,0 +1,52 @@
+/* How the website should look on phone */
+
+/* Navigation */
+
+.items a{
+    font-size: 1rem;
+    padding: 0px 7px;
+}
+
+/* Home Section */
+#home{
+    height: 400px;
+    padding: 0px;
+}
+#home::before{
+    height: 580px;
+ 
+}
+#home p{
+    font-size: 13px;
+}
+/* Services section */
+#services{
+    flex-direction: column;
+}
+#services .box{
+
+}
+
+/* Client section */
+
+#clients{
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+#clients-section{
+    height: 400px;
+}
+
+
+
+/* Contact section */
+
+
+/* Footer Section */
+
+/* Utility */
+
+.h-primary{
+    font-size: 26px;
+}
